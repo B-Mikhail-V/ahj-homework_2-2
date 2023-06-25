@@ -1,0 +1,26 @@
+{
+  "name": "ahj-homework-2-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/B-Mikhail-V/ahj-homework_2-2.git",
+  "author": "Mikail Bakulin <bakulin.mv@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server --mode production",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "eslint": "^7.32.0 || ^8.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-remove-unused-vars": "^2.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
